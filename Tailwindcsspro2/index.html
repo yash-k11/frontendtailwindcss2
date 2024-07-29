@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Project</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom transition duration and timing function */
+        .transition-custom {
+            transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <div class="container min-h-screen bg-zinc-800 text-white px-28 py-6 gap-6">
+        <nav class="flex itens-center border-r-2 border-l-2 border-t-4 border-b-4 p-5 items-center">
+            <img class="w-16 h-16 cursor-pointer" src="/google-logo-icon-png-transparent-background-osteopathy-16.png" alt="img">
+            <ul class="flex-1 text-center">
+                <li class="list-none inline-block px-5"><a href="#" class="px-2 hover:text-yellow-200">Home</a></li>
+                <li class="list-none inline-block px-5"><a href="#about" class="px-2 hover:text-yellow-200">About</a></li>
+                <li class="list-none inline-block px-5"><a href="#contact" class="px-2 hover:text-yellow-200">Contact</a></li>
+                
+            </ul>
+            <button class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 text-lg">connect</button>
+        </nav>
+        <div class="p-4 text-lg items-center mt-48">
+
+            <h1 class="flex text-6xl transition-custom hover:scale-110 text-yellow-400">Tech Hub By Yash<br> Get web services within minutes</h1>
+            <p class="flex py-3.5 transition-custom hover:scale-110">Hello! I’m Yash, a tech enthusiast with a passion for web and mobile development, software engineering, and cloud technologies. I’m dedicated to leveraging the latest advancements to create impactful solutions and enjoy collaborating with others to push the boundaries of innovation.</p><br>
+            <div>
+                <a href="#services" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 text-lg">services</a>
+            </div>
+            <section  id="about" class=" py-8 transition-custom hover:scale-110">
+                <div class="container mx-auto px-4 mt-24">
+                    <h1 class="text-4xl font-bold text-center mb-6">About Us</h1>
+                    <p class="text-lg text-white-700 text-center">
+                        Welcome to <span class="font-semibold">Tech Hub</span>, your one-stop destination for comprehensive web and online services. We specialize in a wide range of digital solutions designed to elevate your business and streamline your operations. Our expertise spans across web development, mobile app creation, software development, and cloud services, ensuring that we meet all your technological needs.
+                    </p>
+                </div>
+            </section>
+        
+            <!-- Mission Section -->
+            <section id="about" class="py-8">
+                <div class="container mx-auto px-4 transition-custom hover:scale-110">
+                    <h2 class="text-3xl font-bold text-center mb-6">Our Mission</h2>
+                    <p class="text-lg text-white-700 text-center transition-custom hover:scale-110">
+                        Our mission is to empower businesses with cutting-edge technology solutions that drive growth, efficiency, and innovation. We are committed to delivering top-notch services that exceed your expectations and help you achieve your goals.
+                    </p>
+                </div>
+            </section>
+        
+            <!-- Services Section -->
+    <section id="services" class="py-8">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-6 transition-custom hover:scale-110">Our Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+                <div>
+                    <h3 class="text-2xl font-semibold mb-4 transition-custom hover:scale-110">Web Development</h3>
+                    <p class="text-lg transition-custom hover:scale-110">
+                        From stunning websites to powerful e-commerce platforms, we create web solutions that are visually appealing, user-friendly, and highly functional.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-semibold mb-4 transition-custom hover:scale-110">Mobile App Development</h3>
+                    <p class="text-lg transition-custom hover:scale-110">
+                        We develop robust mobile applications for both iOS and Android platforms, tailored to meet your unique business requirements.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-semibold mb-4 transition-custom hover:scale-110">Software Development</h3>
+                    <p class="text-lg transition-custom hover:scale-110">
+                        Our custom software solutions are designed to automate processes, enhance productivity, and provide seamless user experiences.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-semibold mb-4 transition-custom hover:scale-110">Cloud Services</h3>
+                    <p class="text-lg transition-custom hover:scale-110">
+                        We offer comprehensive cloud solutions including cloud migration, management, and optimization to ensure your business operates smoothly and efficiently.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-semibold mb-4 transition-custom hover:scale-110">Other Services</h3>
+                    <p class="text-lg transition-custom hover:scale-110">
+                        In addition to the core services, we provide a wide range of other digital solutions such as SEO, digital marketing, and IT consulting to help you stay ahead in the competitive market.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="py-8">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-6 transition-custom hover:scale-110">Why Choose Us?</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-semibold mb-2 transition-custom hover:scale-110">Expertise</h3>
+                    <p class="text-lg transition-custom hover:scale-110">
+                        Our team of professionals has extensive experience and knowledge in the latest technologies and industry trends.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-2 transition-custom hover:scale-110">Customization</h3>
+                    <p class="text-lg transition-custom hover:scale-110">
+                        We understand that every business is unique, which is why we offer tailored solutions to meet your specific needs.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-2 transition-custom hover:scale-110">Quality</h3>
+                    <p class="text-lg transition-custom hover:scale-110">
+                        We are dedicated to delivering high-quality services that add value to your business and enhance your online presence.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-2 transition-custom hover:scale-110">Support</h3>
+                    <p class="text-lg transition-custom hover:scale-110">
+                        Our commitment to your success doesn't end with project delivery. We provide ongoing support and maintenance to ensure your solutions continue to perform optimally.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Team Section -->
+    <section class="py-8">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-6 transition-custom hover:scale-110">Our Team</h2>
+            <p class="text-lg text-center transition-custom hover:scale-110">
+                At <span class="font-semibold">Tech Hub</span>, we pride ourselves on having a diverse team of skilled professionals who are passionate about technology and innovation. Our collaborative approach ensures that we bring the best ideas and solutions to the table, working together to achieve your business objectives.
+            </p>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section  id="contact" class="py-8">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-6 transition-custom hover:scale-110">Contact Us</h2>
+            <p class="text-lg text-center transition-custom hover:scale-110">
+                Ready to take your business to the next level? Get in touch with us today to discuss your project requirements and find out how we can help you succeed.
+            </p>
+        </div>
+    </section>
+        </div>
+    </div>
+</body>
+</html>
